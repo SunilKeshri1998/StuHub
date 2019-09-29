@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.decimals.stuhub.ChatActivity">
+
+    <include
+        android:id="@+id/chat_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/msg_layout"
+        android:layout_below="@+id/chat_page_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:background="@color/com_facebook_button_login_silver_background_color_pressed"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <EditText
+            android:id="@+id/chatMsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_weight="4"
+            android:hint="type here.."
+            android:inputType="text|textAutoCorrect|textAutoComplete|textMultiLine|textLongMessage"
+            android:maxHeight="160dp"
+            android:paddingTop="15dp" />
+
+        <!--<Button-->
+        <!--android:id="@+id/send"-->
+        <!--android:layout_width="45dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|right|end"-->
+        <!--android:background="@mipmap/ic_send_black_24dp" />-->
+        <ImageView
+            android:id="@+id/send"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right|end"
+            android:layout_weight="1"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:src="@mipmap/ic_send_black_24dp" />
+    </LinearLayout>
+</RelativeLayout>

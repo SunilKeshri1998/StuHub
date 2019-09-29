@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <RelativeLayout
+        android:id="@+id/image_background"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <TextView
+            android:id="@+id/branch_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="bottom"
+            android:alpha="100000"
+            android:background="@color/cardview_shadow_start_color"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:hint="branch name"
+            android:padding="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

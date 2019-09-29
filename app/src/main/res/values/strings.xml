@@ -1,0 +1,602 @@
+<resources>
+    <string name="app_name" formatted="true">StuHub</string>
+    <string name="facebook_app_id">208262689903648</string>
+    <string name="fb_login_protocol_scheme">fb208262689903648</string>
+    <string name="home">Home</string>
+    <string name="home_title">\t\t\tStuHub</string>
+    <string name="profile">Profile</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="about">About</string>
+    <string name="default_notification_channel_id">StuHub</string>
+
+    <string-array name="branch">
+        <item>Computer Science and Engineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Electrical and Communication Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Metallurgical and Materials Engineering</item>
+        <item>Manufacturing Engineering</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="branch_cse">
+        <item>CS101 Engineering Physics</item>
+        <item>CS102 Engineering Mathematics - I</item>
+        <item>CS103 Engineering Graphics</item>
+        <item>CS104 Basic Electrical Engineering</item>
+        <item>CS105 English for Communication</item>
+        <item>CS106 Computer Programming</item>
+        <item>CS107 Engineering Physics Lab</item>
+        <item>CS108 Basic Electrical Engineering Lab</item>
+        <item>CS109 Engineering Graphics Lab</item>
+        <item>CS110 Computer Programming Lab</item>
+
+        <item>CS201 Engineering Chemistry</item>
+        <item>CS202 Engineering Mathematics - II</item>
+        <item>CS203 Basic Electronics Engineering</item>
+        <item>CS204 Programming and Data Structure</item>
+        <item>CS205 Switching Circuit and Logic Design</item>
+        <item>CS206 Engineering Chemistry Lab</item>
+        <item>CS207 Basic Electronics Engineering Lab</item>
+        <item>CS208 Programming and Data Structure Lab</item>
+        <item>CS209 Workshop Technology</item>
+
+        <item>CS301 Introduction to Soft Skills</item>
+        <item>CS302 Engineering Mathematics - III</item>
+        <item>CS303 Discrete Mathematics</item>
+        <item>CS304 Design and Analysis of Algorithms</item>
+        <item>CS305 Computer Organization and Architecture</item>
+        <item>CS306 Design and Analysis of Algorithms Lab</item>
+        <item>CS307 Numerical Methods Lab</item>
+        <item>CS308 Computer Organization and Architecture Lab</item>
+
+        <item>CS401 Database Management System</item>
+        <item>CS402 Theory of Computation</item>
+        <item>CS403 Microprocessors and Interfacing</item>
+        <item>CS404 Data Communication</item>
+        <item>CS405 Software Engineering</item>
+        <item>CS406 Database Management System Lab</item>
+        <item>CS407 Microprocessors and Interfacing Lab</item>
+        <item>CS408 Software Engineering Lab</item>
+
+        <item>CS501 Operating System</item>
+        <item>CS502 Computer Networks</item>
+        <item>CS503 Object Oriented System Design</item>
+        <item>CS504 Computer Graphics</item>
+        <item>CS505 Professional Elective</item>
+        <item>CS506 Operating System Lab</item>
+        <item>CS507 Object Oriented System Design Lab</item>
+        <item>CS508 Computer Graphics Lab</item>
+
+        <item>CS601 Parallel and Distributed Computing</item>
+        <item>CS602 Advanced Computer Architecture</item>
+        <item>CS603Compiler Design</item>
+        <item>CS604 Professional Elective - II</item>
+        <item>CS605 Free Elective - I</item>
+        <item>CS606 Compiler Design Lab</item>
+        <item>CS607 Free Elective - I Lab</item>
+        <item>CS608 Seminar</item>
+
+        <item>CS701 Organizational Behavior and Industrial Psycholog</item>
+        <item>CS702 Industrial Economics</item>
+        <item>CS703 Artificial Intelligence and Applications</item>
+        <item>CS704 Professional Elective - III</item>
+        <item>CS705 Free Elective - II</item>
+        <item>CS706 Industrial Training</item>
+        <item>CS707 Free Elective - II Lab</item>
+        <item>CS708 Major Project</item>
+
+        <item>CS801 Management Information System</item>
+        <item>CS802 Distributed Operating Systems</item>
+        <item>CS803 Professional Elective - IV</item>
+        <item>CS804 Free Elective - III</item>
+        <item>CS805 Free Elective - III Lab</item>
+        <item>CS806 Major Project</item>
+    </string-array>
+    <string-array name="branch_eee">
+        <item>EE101 Engineering Physics</item>
+        <item>EE102 Engineering Mathematics - I</item>
+        <item>EE103 Engineering Graphics</item>
+        <item>EE104 Basic Electronics Engineering</item>
+        <item>EE105 English for Communication</item>
+        <item>EE106 Basic Circuit Theory</item>
+        <item>EE107 Engineering Physics Lab</item>
+        <item>EE108 Engineering Graphics Lab</item>
+        <item>EE109 Basic Electronics Engineering Lab</item>
+
+        <item>EE201 Engineering Chemistry</item>
+        <item>EE202 Engineering Mathematics - II</item>
+        <item>EE203 Basic Mechanical Engineering</item>
+        <item>EE204 Fundamentals of Electro Mechanics</item>
+        <item>EE205 Mechanics of Materials</item>
+        <item>EE206 Engineering Chemistry Lab</item>
+        <item>EE207 Basic Mechanical Engineering Lab</item>
+        <item>EE208 Electro Mechanics Lab</item>
+        <item>EE209 Workshop Technology</item>
+
+        <item>EE301 Introduction to Soft Skills</item>
+        <item>EE302 Electrical and Electronics Measurement</item>
+        <item>EE303 Engineering Mathematics - III</item>
+        <item>EE304 Network Analysis and Synthesis</item>
+        <item>EE305 Analog Electronics</item>
+        <item>EE306 Power System - I</item>
+        <item>EE307 Electrical Measurement Lab</item>
+        <item>EE308 Analog Electronics Lab</item>
+
+        <item>EE401 Industrial Economics and Accountancy</item>
+        <item>EE402 Electromagnetic Fields</item>
+        <item>EE403 Electrical Machines - I</item>
+        <item>EE404 Digital Electronics</item>
+        <item>EE405 Signals and Systems</item>
+        <item>EE406 Electrical Machines - I Lab</item>
+        <item>EE407 Signals and Networks Lab</item>
+        <item>EE408 Digital Electronics Lab</item>
+
+        <item>EE501 Computer Architecture and Operating System</item>
+        <item>EE502 Electrical Machine - II</item>
+        <item>EE503 Control Systems</item>
+        <item>EE504 Power Systems - II</item>
+        <item>EE505 Instrumentation</item>
+        <item>EE506 Control Systems Lab</item>
+        <item>EE507 Electrical Machine - II Lab</item>
+        <item>EE508 Power Systems - II Lab</item>
+
+        <item>EE601 Power Electronics</item>
+        <item>EE602 Microprocessors and Microcontrollers</item>
+        <item>EE603 Elective - I</item>
+        <item>EE604 Elective - II</item>
+        <item>EE605 Microprocessors and Microcontrollers Lab</item>
+        <item>EE606 Instrumentation Lab</item>
+        <item>EE607 Power Electronics Lab</item>
+        <item>EE608 Comprehensive Viva - Voce</item>
+
+        <item>EE701 Organizational Behaviour and Industrial Psychology</item>
+        <item>EE702 Digital Signals Processing</item>
+        <item>EE703 Communication Systems</item>
+        <item>EE704 Elective - III</item>
+        <item>EE705 Elective - IV</item>
+        <item>EE706 Electronics Systems Design Lab</item>
+        <item>EE707 Power Systems Design Lab</item>
+        <item>EE708 Minor Project</item>
+        <item>EE709 Industrial Training</item>
+
+        <item>EE801 Basic Environmental Engineering</item>
+        <item>EE802 Selected Topic in IT</item>
+        <item>EE803 Management Information System</item>
+        <item>EE804 Elective - V</item>
+        <item>EE805 Major Project</item>
+        <item>EE806 General Proficiency</item>
+    </string-array>
+
+    <string-array name="branch_ece">
+        <item>EL101 Engineering Physics</item>
+        <item>EL102 Engineering Mathematics - I</item>
+        <item>EL103 Engineering Graphics</item>
+        <item>EL104 Basic Electrical Engineering</item>
+        <item>EL105 English for Communication</item>
+        <item>EL106 Material Science</item>
+        <item>EL107 Engineering Physics Lab</item>
+        <item>EL108 Engineering Graphics Lab</item>
+        <item>EL109 Basic Electrical Engineering Lab</item>
+
+        <item>EL201 Engineering Chemistry</item>
+        <item>EL202 Engineering Mathematics - II</item>
+        <item>EL203 Basic Mechanical Engineering</item>
+        <item>EL204 C Programming</item>
+        <item>EL205 Semiconductor Devices and Circuits</item>
+        <item>EL206 Engineering Chemistry Lab</item>
+        <item>EL207 Basic Mechanical Engineering Lab</item>
+        <item>EL208 Semiconductor Devices and Circuits Lab</item>
+        <item>EL209 Workshop Technology</item>
+
+        <item>EL301 Electrical Machine</item>
+        <item>EL302 Industrial Economics and Accountancy</item>
+        <item>EL303 Engineering Mathematics - III</item>
+        <item>EL304 Analog Electronics</item>
+        <item>EL305 Electromagnetic Engineering</item>
+        <item>EL306 Electrical Machine Lab</item>
+        <item>EL307 Analog Electronics Lab</item>
+        <item>EL308 Probability and Numerical Method Lab</item>
+
+        <item>EL401 Electronics instrumentation and Control</item>
+        <item>EL402 Digital Electronics</item>
+        <item>EL403 Analog Communication</item>
+        <item>EL404 Data Structure</item>
+        <item>EL405 Management Information System</item>
+        <item>EL406 Analog Communication Lab</item>
+        <item>EL407 Digital Electronics Lab</item>
+        <item>EL408 Data Structure Lab</item>
+
+        <item>EL501 Microprocessor and Interfacing</item>
+        <item>EL502 Digital Communication</item>
+        <item>EL503 Industrial Electronics</item>
+        <item>EL504 Signal and Systems</item>
+        <item>EL505 Introduction to Soft Skill</item>
+        <item>EL506 Digital Communication Lab</item>
+        <item>EL507 Industrial Electronics Lab</item>
+        <item>EL508 Microprocessor Lab</item>
+
+        <item>EL601 Data Communication and Networking</item>
+        <item>EL602 VLSI Design</item>
+        <item>EL603 Control System Engineering</item>
+        <item>EL604 Embedded Systems</item>
+        <item>EL605 Elective - I</item>
+        <item>EL606 Control System Lab</item>
+        <item>EL607 VLSI Lab</item>
+        <item>EL608 Data Communication and Networking Lab</item>
+        <item>EL609 Comprehensive Viva - Voce</item>
+
+        <item>EL701 Digital Signals Processing</item>
+        <item>EL702 Optical Communication</item>
+        <item>EL703 Elective - II</item>
+        <item>EL704 Elective - III</item>
+        <item>EL705 Optical Communication Lab</item>
+        <item>EL706 Digital Signals Processing Lab</item>
+        <item>EL707 Industrial Training</item>
+        <item>EL708 Minor Project</item>
+
+        <item>EL801 Basic Environmental Engineering</item>
+        <item>EL802 RF and Microwave Engineering</item>
+        <item>EL803 Elective - IV</item>
+        <item>EL804 Elective - V</item>
+        <item>EL805 Major Project</item>
+        <item>EL806 General Proficiency</item>
+    </string-array>
+
+    <string-array name="branch_me">
+        <item>ME101 Engineering Chemistry</item>
+        <item>ME102 Engineering Mathematics - I</item>
+        <item>ME103 Basic Electrical and Electronics Engineering</item>
+        <item>ME104 Mechanics of Materials</item>
+        <item>ME105 Engineering Thermodynamics</item>
+        <item>ME106 Workshop Technology</item>
+        <item>ME107 Engineering Chemistry Lab</item>
+        <item>ME108 Basic Electrical and Electronics Engineering Lab</item>
+
+        <item>ME201 Engineering Physics</item>
+        <item>ME202 Engineering Mathematics - II</item>
+        <item>ME203 Basic Civil Engineering</item>
+        <item>ME204 Engineering Graphics</item>
+        <item>ME205 Material Science</item>
+        <item>ME206 English for Communication</item>
+        <item>ME207 Engineering Physics Lab</item>
+        <item>ME208 Basic Civil Engineering Lab</item>
+        <item>ME209 Engineering Graphics Lab</item>
+
+        <item>ME301 Industrial Economics and Accountancy</item>
+        <item>ME302 Engineering Mathematics - II</item>
+        <item>ME303 Kinematics of Machinery</item>
+        <item>ME304 Fluid Mechanics</item>
+        <item>ME305 Mechanics of Solids</item>
+        <item>ME306 Mechanics of Solids Lab</item>
+        <item>ME307 Machine Drawing Lab</item>
+        <item>ME308 Fluid Mechanics Lab</item>
+
+        <item>ME401 Introduction to Soft Skills</item>
+        <item>ME402 Steam Power System</item>
+        <item>ME403 Numerical Methods and Computational Technique</item>
+        <item>ME404 Manufacturing by shaping and Joining</item>
+        <item>ME405 Dynamics of Machinery</item>
+        <item>ME406 Industrial Management</item>
+        <item>ME407 Workshop Practice (Casting and Welding)</item>
+        <item>ME408 Dynamics of Machinery Lab</item>
+
+        <item>ME501 Machine Tools and Machining</item>
+        <item>ME502 Instrumentation and Control</item>
+        <item>ME503 Heat and Mass Transfer</item>
+        <item>ME504 Design of Machine Elements</item>
+        <item>ME505 Mechanical Vibration</item>
+        <item>ME506 Machine Tools and Machining Lab</item>
+        <item>ME507 Instrumentation and Control Lab</item>
+        <item>ME508 Heat and Mass Transfer Lab</item>
+        <item>ME509 Design and Drawing Lab</item>
+
+        <item>ME601 Fluid Machinery</item>
+        <item>ME602 Elective - I</item>
+        <item>ME603 Mechanical System Design</item>
+        <item>ME604 Internal Combustion Engine and Gas Turbine</item>
+        <item>ME605 Refrigeration and Air-conditioning</item>
+        <item>ME606 Fluid Machinery Lab</item>
+        <item>ME607 Mechanical System Design Lab</item>
+        <item>ME608 Applied Thermodynamics Lab</item>
+        <item>ME609 Comprehensive Viva - Voce</item>
+
+        <item>ME701 Organizational Behavior and Industrial Psychology</item>
+        <item>ME702 Computer Aided Design and Manufacturing</item>
+        <item>ME703 Renewable Energy Systems</item>
+        <item>ME704 Elective - II</item>
+        <item>ME705 CAD/CAM Lab</item>
+        <item>ME706 Renewable Energy Systems Lab</item>
+        <item>ME707 Industrial Training</item>
+        <item>ME708 Minor Project</item>
+
+        <item>ME801 Power Plant Engineering</item>
+        <item>ME802 Environmental Engineering and Management</item>
+        <item>ME803 Elective - III</item>
+        <item>ME804 Elective - IV</item>
+        <item>ME805 General Proficiency</item>
+        <item>ME806 Major Project</item>
+
+    </string-array>
+    <string-array name="branch_ce">
+        <item>CE101 Engineering Physics</item>
+        <item>CE102 Engineering Mathematics - I</item>
+        <item>CE103 Engineering Graphics</item>
+        <item>CE104 Basic Electrical and Electronics Engineering</item>
+        <item>CE105 English for Communication</item>
+        <item>CE106 Building Materials and Constructions</item>
+        <item>CE107 Engineering Physics Lab</item>
+        <item>CE108 Engineering Graphics Lab</item>
+        <item>CE109 Basic Electrical and Electronics Engineering Lab</item>
+
+        <item>CE201 Engineering Chemistry</item>
+        <item>CE202 Engineering Mathematics - II</item>
+        <item>CE203 Basic Mechanical Engineering</item>
+        <item>CE204 Engineering Geology</item>
+        <item>CE205 Workshop Technology</item>
+        <item>CE206 Mechanics of Materials</item>
+        <item>CE207 Engineering Chemistry Lab</item>
+        <item>CE208 Basic Mechanical Engineering Lab</item>
+        <item>CE209 Engineering Geology Lab</item>
+
+        <item>CE301 Engineering Mathematics - III</item>
+        <item>CE302 Survey - I</item>
+        <item>CE303 Structural Mechanics</item>
+        <item>CE304 Hydraulics</item>
+        <item>CE305 Introduction to Soft Skills</item>
+        <item>CE306 Hydraulics Lab</item>
+        <item>CE307 Civil Engineering Drawing (Auto CAD)</item>
+
+        <item>CE401 Transportation Engineering - I</item>
+        <item>CE402 Survey - II</item>
+        <item>CE403 Water Resources Engineering - I</item>
+        <item>CE404 Structural Analysis - I</item>
+        <item>CE405 Geotechnical Engineering - I</item>
+        <item>CE406 Geotechnical Engineering - I Lab</item>
+        <item>CE407 Transportation Engineering Lab</item>
+        <item>CE408 Survey Field Work</item>
+
+        <item>CE501 Structural Analysis - II</item>
+        <item>CE502 Geotechnical Engineering - II</item>
+        <item>CE503 Design of Concrete Structures - I</item>
+        <item>CE504 Design of Steel Structures</item>
+        <item>CE505 Environmental Engineering - I</item>
+        <item>CE506 Geotechnical Engineering - II Lab</item>
+        <item>CE507 Design of Steel Structures Lab</item>
+        <item>CE508 Environmental Engineering - I Lab</item>
+
+        <item>CE601 Design of Concrete Structures - II</item>
+        <item>CE602 Environmental Engineering - II</item>
+        <item>CE603 Water Resources Engineering - II</item>
+        <item>CE604 Elective - I</item>
+        <item>CE605 Construction and Concrete Technology</item>
+        <item>CE606 </item>
+        <item>CE607 Comprehensive Viva - Voce</item>
+        <item>CE608 Civil Engineering Materials Lab</item>
+        <item>CE609 Educational Tour / Visit</item>
+
+        <item>CE701 Estimating and Costing</item>
+        <item>CE702 Irrigation Engineering</item>
+        <item>CE703 Transportation Engineering - II</item>
+        <item>CE704 Elective - II</item>
+        <item>CE705 Management Information System</item>
+        <item>CE706 Estimating and Costing Lab</item>
+        <item>CE707 Minor Projects</item>
+        <item>CE708 Industrial Training</item>
+
+        <item>CE801 Bridges and Tunnels</item>
+        <item>CE802 Civil Construction, Planning and Management</item>
+        <item>CE803 Elective - III</item>
+        <item>CE804 Elective - IV</item>
+        <item>CE805 Major Projects and Seminar</item>
+        <item>CE806 General Proficiency</item>
+    </string-array>
+
+    <string-array name="branch_mme">
+        <item>MT101 Engineering Chemistry</item>
+        <item>MT102 Engineering Mathematics - I</item>
+        <item>MT103 Basic Civil Engineering</item>
+        <item>MT104 Mechanics of Materials</item>
+        <item>MT105 Computer Programming</item>
+        <item>MT106 Workshop Technology</item>
+        <item>MT107 Engineering Chemistry Lab</item>
+        <item>MT108 Basic Civil Engineering Lab</item>
+        <item>MT109 Computer Programming Lab</item>
+
+        <item>MT201 Engineering Physics</item>
+        <item>MT202 Engineering Mathematics - II</item>
+        <item>MT203 Engineering Graphics</item>
+        <item>MT204 Material Science</item>
+        <item>MT205 English for Communication</item>
+        <item>MT206 Basic Electrical and Electronics Engg</item>
+        <item>MT207 Basic Electrical and Electronics Engineering Lab</item>
+        <item>MT208 Engineering Graphics Lab</item>
+        <item>MT209 Engineering Physics Lab</item>
+
+        <item>MT301 Engineering Mathematics - III</item>
+        <item>MT302 Principles of Physical Metallurgy</item>
+        <item>MT303 Metallurgical Thermodynamics</item>
+        <item>MT304 Fluid Mechanics</item>
+        <item>MT305 Principles of Process Metallurgy</item>
+        <item>MT306 Industrial Economics and Accountancy</item>
+        <item>MT307 Physical Metallurgy and Metallography Lab</item>
+        <item>MT308 Extractive Metallurgy and Thermodynamics Lab</item>
+
+        <item>MT401 Mechanical Properties of Materials</item>
+        <item>MT402 X-Ray Diffraction and Electron Microscopy</item>
+        <item>MT403 Heat and Mass Transfer</item>
+        <item>MT404 Deformation of Materials</item>
+        <item>MT405 Geology and Mineral Beneficiation</item>
+        <item>MT406 X-Ray Diffraction and Electron Microscopy Lab</item>
+        <item>MT407 Material Testing Lab</item>
+        <item>MT408 Geology and Mineral Beneficiation Lab</item>
+        <item>MT409 Introduction to soft skill</item>
+
+        <item>MT501 Phase Transformations</item>
+        <item>MT502 Fuels, Furnaces and Refractories</item>
+        <item>MT503 Iron Making</item>
+        <item>MT504 Characterization of Materials</item>
+        <item>MT505 Extraction of Non-ferrous Metals</item>
+        <item>MT506 Manufacturing Process in Metallurgy</item>
+        <item>MT507 Characterization of Materials Lab</item>
+        <item>MT508 Fuels, Furnaces and Refractories Lab</item>
+
+        <item>MT601 Metal Forming Technology</item>
+        <item>MT602 Steel Making</item>
+        <item>MT603 Numerical Methods and its Applications in Metallurgy</item>
+        <item>MT604 Heat Treatment Science and Technology</item>
+        <item>MT605 Design Lab</item>
+        <item>MT606 Heat Treatment Lab</item>
+        <item>MT607 Comprehensive viva</item>
+        <item>MT608 Numerical Methods Lab</item>
+        <item>MT609 Elective - I</item>
+
+        <item>MT701 Advanced Materials</item>
+        <item>MT702 Materials Degradation and its Protection</item>
+        <item>MT703 Organizational Behavior and Industrial Psychology</item>
+        <item>MT704 Manufacturing Process Lab (Foundry and Process)</item>
+        <item>MT705 Industrial Training and Tour</item>
+        <item>MT706 Project</item>
+        <item>MT707 Elective - II</item>
+        <item>MT708 Elective - III</item>
+
+        <item>MT801 Manufacturing Process in Metallurgy</item>
+        <item>MT802 Management Information Systems</item>
+        <item>MT803 Sustainable Development</item>
+        <item>MT804 Project</item>
+        <item>MT805 Comprehensive Viva</item>
+        <item>MT806 Elective - IV</item>
+
+    </string-array>
+    <string-array name="branch_mfe">
+        <item>PR101 Engineering Chemistry</item>
+        <item>PR102 Engineering Mathematics - I</item>
+        <item>PR103 Basic Electrical and Electronics Engg</item>
+        <item>PR104 Mechanics of Materials</item>
+        <item>PR105 Engineering Thermodynamics</item>
+        <item>PR106 Workshop Technology</item>
+        <item>PR107 Engineering Chemistry Lab</item>
+        <item>PR108 Basic Electrical and Electronics Engg Lab</item>
+
+        <item>PR201 Engineering Physics</item>
+        <item>PR202 Engineering Mathematics - II</item>
+        <item>PR203 Engineering Graphics</item>
+        <item>PR204 Material Science</item>
+        <item>PR205 English for Communication</item>
+        <item>PR206 Basic Civil Engineering</item>
+        <item>PR207 Basic Civil Engineering Lab</item>
+        <item>PR208 Engineering Graphics Lab</item>
+        <item>PR209 Engineering Physics Lab</item>
+
+        <item>PR301 Metrology</item>
+        <item>PR302 Industrial Economics and Accountancy</item>
+        <item>PR303 Engineering Mathematics - III</item>
+        <item>PR304 Numerical Methods and Applications</item>
+        <item>PR305 Fluid Mechanics</item>
+        <item>PR306 Thermal Engineering</item>
+        <item>PR307 Engineering Graphics Lab (AUTOCAD)</item>
+        <item>PR308 Mechanics of Solids Lab</item>
+        <item>PR309 EAA III - NSS</item>
+
+        <item>PR401 Quality Assurance and Reliability</item>
+        <item>PR402 Fluid Machinery</item>
+        <item>PR403 Manufacturing by Shaping and Joining</item>
+        <item>PR404 Theory of Machine</item>
+        <item>PR405 Production Management-||</item>
+        <item>PR406 Foundry and Welding Lab</item>
+        <item>PR407 Fluid Mechanics and Heat Transfer Lab</item>
+        <item>PR408 Theory of Machine Lab</item>
+        <item>PR409 EAA III - NSS</item>
+
+        <item>PR501 CAD / CAM</item>
+        <item>PR502 Design of Machine Elements</item>
+        <item>PR503 Machine Tool and Machining</item>
+        <item>PR504 Non Traditional Manufacturing Process</item>
+        <item>PR505 Production Management - II</item>
+        <item>PR506 Design of Production Tooling</item>
+        <item>PR507 Non Traditional Manufacturing Lab</item>
+        <item>PR508 Design of Machine Elements Lab</item>
+
+        <item>PR601 Quality Production Methods</item>
+        <item>PR602 Machinery Fault Diagnostics and Signal Processing</item>
+        <item>PR603 Metal Forming</item>
+        <item>PR604 Operations Research</item>
+        <item>PR605 Electrical Machines</item>
+        <item>PR606 Elective - I</item>
+        <item>PR607 Machining and Metrology Lab</item>
+        <item>PR608 Operations Research Lab</item>
+        <item>PR609 Comprehensive Viva - Voce</item>
+
+        <item>PR701 Organizational Behavior and Industrial Psychology</item>
+        <item>PR702 Robotics and Robot Applications</item>
+        <item>PR703 Environmental Engg. and Management</item>
+        <item>PR704 Elective - II</item>
+        <item>PR705 Elective - III</item>
+        <item>PR706 Industrial Engg and Ergonomics Lab</item>
+        <item>PR707 Computer Aided Design and Manufacturing Lab</item>
+        <item>PR708 Minor Project</item>
+        <item>PR709 Industrial Training</item>
+
+        <item>PR801 Work System Design and Human Factor Engineering</item>
+        <item>PR802 Management Information System</item>
+        <item>PR803 Elective - IV</item>
+        <item>PR804 Elective - V</item>
+        <item>PR805 </item>
+        <item>PR806 Major Projects and Seminar</item>
+        <item>PR807 General Proficiency</item>
+
+    </string-array>
+    <string-array name="branch_others">
+        <item>App Development</item>
+        <item>MATLAB</item>
+        <item>Robotics</item>
+        <item>Web Development</item>
+    </string-array>
+
+    <string-array name="rules">
+        <item>
+            1.Personal information/data of users will
+                be treated as confidential.
+        </item>
+        <item>
+            2.Users of this app may post comments and other
+                content,send communications, and submit suggestions,
+                ideas, comments, questions, or other information, as
+                long as the content is not illegal, obscene, abusive,
+                threatening, defamatory, invasive of privacy, infringing
+                of intellectual property rights, or otherwise injurious to
+                third parties, or objectionable and does not consist of
+                or contain software viruses, political campaigning,
+                commercial solicitation, chain letters, mass mailings, or
+                any form of "Spam". In the event a user uses a false email
+                address, impersonates any person or entity, or
+                otherwise misleads as to the origin of any content.
+        </item>
+        <item>
+            3. A document to be uploaded by a user can have maximum size of 50 MB.
+        </item>
+        <item>
+            4. Description of a document ,provided during uploding the document, should not be more than
+                50 words.
+        </item>
+        <item>
+            5. Users can upload .doc, .pdf , .ppt , .txt formats only.
+        </item>
+        <item>
+            6. Users are awarded 100xp per contribution.
+        </item>
+        <item>
+            7.All the contents of app and app resources are
+                available to all.
+        </item>
+        <item>
+            8.Team decimal reserves the right (but not the
+                obligation) to remove, refuse, delete or edit any content
+                that in the sole judgement of Team decimal that violates these conditions of use and, or terminate your
+                permission to access this app.
+        </item>
+    </string-array>
+
+</resources>

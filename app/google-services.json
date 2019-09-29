@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "555901352610",
+    "firebase_url": "https://stuhub-510f3.firebaseio.com",
+    "project_id": "stuhub-510f3",
+    "storage_bucket": "stuhub-510f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555901352610:android:9bc818ef6d9b53eb",
+        "android_client_info": {
+          "package_name": "com.decimals.stuhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555901352610-h1dc0ren33ribk6drshchcupdd84spsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.decimals.stuhub",
+            "certificate_hash": "2840f602c438b5030f481b1e2f430d5d13efede1"
+          }
+        },
+        {
+          "client_id": "555901352610-h4k41eu9k8uol0bgd0qrqkg9ll3ot1ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP_Pq8AppWLY2QOYtwRTZdyDpzg770rtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555901352610-h4k41eu9k8uol0bgd0qrqkg9ll3ot1ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.decimals.stuhub.SubjectSearchActivity">
+
+    <include
+        android:id="@+id/sub_searchActivity_toolbar"
+        layout="@layout/app_bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sub_searchActivity_toolbar"
+        android:layout_below="@+id/sub_searchActivity_toolbar"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/search_btn"
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:hint="Search here"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#999999"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search_field"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/search_field"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@mipmap/search_button" />
+
+    <TextView
+        android:id="@+id/searchResultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/result_list"
+        android:layout_alignStart="@+id/search_field"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="95dp"
+        android:text="" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav_bar"
+        android:layout_below="@+id/search_field" />
+
+
+    <include
+        android:id="@+id/bottom_nav_bar"
+        layout="@layout/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

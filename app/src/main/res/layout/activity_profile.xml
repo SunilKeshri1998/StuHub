@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.decimals.stuhub.ProfileActivity">
+
+    <include
+        android:id="@+id/profile_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <RelativeLayout
+        android:id="@+id/profile_tab"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_below="@id/profile_page_toolbar">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:background="@color/colorPrimary" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            style="@style/Base.CardView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="@color/white"
+            app:civ_border_overlay="true"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav_bar"
+        android:layout_below="@id/profile_tab"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="2"
+            android:fontFamily="@font/biryani_semibold"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+        <RelativeLayout
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000"
+            app:layout_constraintTop_toBottomOf="@+id/profile_name" />
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp">
+
+            <Button
+                android:id="@+id/myDownloads"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:maxHeight="56dp"
+                android:text="Downloads"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/contributionBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:maxHeight="56dp"
+                android:text="Contributions: 0"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+
+        <RelativeLayout
+            android:id="@+id/levelView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:maxHeight="56dp">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="60dp"
+                android:minHeight="12dp"
+                android:progressBackgroundTint="@color/com_facebook_button_background_color_disabled"
+                android:progressTint="#ffcc00" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:id="@+id/xp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/progressBar"
+                android:layout_marginEnd="40dp"
+                android:text="100xp needed for level 1"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/separator3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/biryani_semibold"
+            android:gravity="center"
+            android:text="Level"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/level"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="false"
+            android:layout_weight="3"
+            android:fontFamily="@font/black_ops_one"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:text="0"
+            android:textSize="52sp" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav_bar"
+        android:layout_marginTop="12dp">
+
+        <RelativeLayout
+            android:id="@+id/design_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            app:behavior_hideable="false"
+            app:behavior_peekHeight="40dp"
+            app:elevation="4dp"
+            app:layout_behavior="@string/bottom_sheet_behavior"
+            tools:layout_editor_absoluteY="435dp">
+
+            <TextView
+                android:id="@+id/con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="My Contributions"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="22sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/result_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/con">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+    <include
+        android:id="@+id/bottom_nav_bar"
+        layout="@layout/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
